@@ -6,6 +6,7 @@ import { ExternalLink } from '@/components/ExternalLink';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { Text } from 'react-native';
 
 export default function TabTwoScreen() {
   return (
@@ -14,6 +15,7 @@ export default function TabTwoScreen() {
       headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Explore</ThemedText>
+        <Text className="text-red-700 text-3xl font-extrabold">This is Nativewind</Text>
       </ThemedView>
       <ThemedText>This app includes example code to help you get started.</ThemedText>
       <Collapsible title="File-based routing">
