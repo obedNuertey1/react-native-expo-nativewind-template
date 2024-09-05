@@ -1,4 +1,4 @@
-# React Native Starter Template
+# React Native Expo Starter Template
 
 ## Hi This is a react-native expo starter template with nativewindcss 
 
